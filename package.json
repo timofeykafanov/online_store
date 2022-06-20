@@ -1,0 +1,19 @@
+{
+  "name": "online_store",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timofeykafanov/online_store.git"
+  },
+  "author": "tim.kafanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timofeykafanov/online_store/issues"
+  },
+  "homepage": "https://github.com/timofeykafanov/online_store#readme"
+}
