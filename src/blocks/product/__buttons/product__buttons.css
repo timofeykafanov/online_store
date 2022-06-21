@@ -1,0 +1,5 @@
+.product__buttons {
+  display: flex;
+  margin-bottom: 12px;
+  color: #333333;
+}

@@ -1,0 +1,8 @@
+.product__previous-price {
+  color: #828282;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 12px;
+  text-decoration: line-through;
+}

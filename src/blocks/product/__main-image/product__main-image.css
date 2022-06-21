@@ -1,0 +1,6 @@
+.product__main-image {
+  position: absolute;
+  width: 686px;
+  height: 878px;
+  z-index: -1;
+}

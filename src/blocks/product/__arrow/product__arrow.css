@@ -1,0 +1,7 @@
+.product__arrow {
+  background-image: url('../../../images/arrow.svg');
+  background-size: cover;
+  width: 9px;
+  height: 15px;
+  margin: 0 0 0 8px;
+}

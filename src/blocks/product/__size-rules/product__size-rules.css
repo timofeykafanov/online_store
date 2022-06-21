@@ -1,0 +1,12 @@
+.product__size-rules {
+  color: #333333;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  margin-bottom: 40px;
+  transition: opacity 0.3s;
+}
+
+.product__size-rules:hover {
+  opacity: 0.7;
+}

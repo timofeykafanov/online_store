@@ -1,0 +1,15 @@
+.product__like {
+  background-image: url('../../../images/favorite-white.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  padding: 0;
+  background-color: #333333;
+  width: 44px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.product__like:hover {
+  opacity: 0.8;
+}

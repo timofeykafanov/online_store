@@ -14,17 +14,109 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
-            <a class="header__link header__link_type_person"></a>
+            <a href="#" class="header__link header__link_type_person"></a>
           </li>
           <li class="header__item">
-            <a class="header__link header__link_type_favorite"></a>
+            <a href="#" class="header__link header__link_type_favorite"></a>
           </li>
           <li class="header__item">
-            <a class="header__link header__link_type_bag"></a>
+            <a href="#" class="header__link header__link_type_bag"></a>
           </li>
         </ul>
       </nav>
     </section>
   </header>
+  <main class="main">
+    <div class="main__container">
+      <section class="product">
+        <div class="product__images">
+          <img class="product__main-image" src="./images/first.jpg" alt="product image">
+          <ul class="product__list">
+            <li class="product__item">
+              <div class="product__cover">
+                <img class="product__image product__image_selected" src="./images/first.jpg" alt="product image">
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__cover">
+                <img class="product__image" src="./images/second.jpg" alt="product image">
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__cover">
+                <img class="product__image" src="./images/third.jpg" alt="product image">
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__cover">
+                <img class="product__image" src="./images/fourth.jpg" alt="product image">
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__cover">
+                <img class="product__image" src="./images/fifth.jpg" alt="product image">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="product__content">
+          <div class="product__container">
+            <h2 class="product__name">Пижама для девочек</h2>
+            <p class="product__article">Арт. 02765/46</p>
+            <a href="#" class="product__reviews">Отзывы
+              <span class="product__stars"></span>14 отзывов
+              <span class="product__arrow"></span>
+            </a>
+            <a href="#" class="product__price">800 ₽
+              <span class="product__previous-price">1 500 ₽</span>
+              <span class="product__arrow"></span>
+            </a>
+            <div class="product__sales">
+              <div class="product__sale">
+                <p class="product__sale-text">скидка -36%</p>
+              </div>
+              <div class="product__sale">
+                <p class="product__sale-text">акция -20%</p>
+              </div>
+            </div>
+            <form class="product__form">
+              <select class="product__size" name="size">
+                <option checked>Выбрать размер</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="S">S</option>
+                <option value="XS">XS</option>
+              </select>
+              <a href="#" class="product__size-rules">Определить размер</a>
+              <div class="product__buttons">
+                <div class="product__counter">
+                  <button class="product__minus" type="button">–</button>
+                  <span class="product__quantity">1</span>
+                  <button class="product__plus" type="button">+</button>
+                </div>
+                <button class="product__submit" type="submit">Добавить в корзину</button>
+                <button class="product__like" type="button"></button>
+              </div>
+            </form>
+            <button class="product__one-click" type="button">Купить в 1 клик</button>
+          </div>
+          <ul class="product__link-list">
+            <li class="product__link-item">
+              <div class="product__icon product__icon_type_closes"></div>
+              <a href="#" class="product__link">Описание товара</a>
+            </li>
+            <li class="product__link-item">
+              <div class="product__icon product__icon_type_clock"></div>
+              <a href="#" class="product__link">Доставка и возврат</a>
+            </li>
+            <li class="product__link-item">
+              <div class="product__icon product__icon_type_pay"></div>
+              <a href="#" class="product__link">Способы оплаты</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>

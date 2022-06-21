@@ -1,0 +1,6 @@
+.product__quantity {
+  width: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+.product__one-click {
+  border: none;
+  padding: 0;
+  background: white;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #333333;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.product__one-click:hover {
+  opacity: 0.7;
+}

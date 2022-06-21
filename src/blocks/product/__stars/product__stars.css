@@ -1,0 +1,6 @@
+.product__stars {
+  background-image: url('../../../images/stars.svg');
+  width: 60px;
+  height: 20px;
+  margin: 0 4px 0 12px;
+}
