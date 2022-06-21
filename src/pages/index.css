@@ -59,3 +59,17 @@
 @import url(../blocks/footer/__form/footer__form.css);
 @import url(../blocks/footer/__email/footer__email.css);
 @import url(../blocks/footer/__button/footer__button.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__link/popup__link.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__input/_type/_phone/popup__input_type_phone.css);
+@import url(../blocks/popup/__input/_type/_name/popup__input_type_name.css);
+@import url(../blocks/popup/__line/popup__line.css);
+@import url(../blocks/popup/_opened/popup_opened.css);

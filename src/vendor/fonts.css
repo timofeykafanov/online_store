@@ -24,3 +24,30 @@
   src: url('../vendor/OpenSans/OpenSans-Bold.woff2') format('woff2'),
        url('../vendor/OpenSans/OpenSans-Bold.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Montesserat';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../vendor/Montesserat/Montserrat-Regular.woff2') format('woff2'),
+       url('../vendor/Montesserat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montesserat';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../vendor/Montesserat/Montserrat-Light.woff2') format('woff2'),
+       url('../vendor/Montesserat/Montserrat-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montesserat';
+  font-style:  normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../vendor/Montesserat/Montserrat-ExtraLight.woff2') format('woff2'),
+       url('../vendor/Montesserat/Montserrat-ExtraLight.woff') format('woff');
+}
