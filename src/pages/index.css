@@ -11,7 +11,6 @@
 @import url(../blocks/header/__link/_type/_favorite/header__link_type_favorite.css);
 @import url(../blocks/header/__link/_type/_bag/header__link_type_bag.css);
 
-@import url(../blocks/main/main.css);
 @import url(../blocks/main/__container/main__container.css);
 
 @import url(../blocks/product/product.css);
@@ -51,3 +50,12 @@
 @import url(../blocks/product/__icon/_type/_clock/product__icon_type_clock.css);
 @import url(../blocks/product/__icon/_type/_pay/product__icon_type_pay.css);
 @import url(../blocks/product/__link/product__link.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__email/footer__email.css);
+@import url(../blocks/footer/__button/footer__button.css);
