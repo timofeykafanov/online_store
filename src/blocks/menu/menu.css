@@ -1,4 +1,4 @@
-.popup {
+.menu {
   position: fixed;
   top: 0;
   right: 0;
@@ -6,9 +6,12 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Montesserat', 'Arial', sans-serif;
-  color: #303030;
+  justify-content: right;
   visibility: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .menu {
+    justify-content: center;
+  }
 }

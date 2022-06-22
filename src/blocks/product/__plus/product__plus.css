@@ -3,8 +3,9 @@
   padding: 0;
   width: 48px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .product__plus:hover {
-  background: linear-gradient(to right, #F2F2F2, #c9c8c3);
+  background-color: #e2e2e2;
 }

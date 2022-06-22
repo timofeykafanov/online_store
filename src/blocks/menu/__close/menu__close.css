@@ -1,0 +1,22 @@
+.menu__close {
+  background: url('../../../images/menu-close.svg');
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.menu__close:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 374px) {
+  .menu__close {
+    margin-left: 276px;
+  }
+}

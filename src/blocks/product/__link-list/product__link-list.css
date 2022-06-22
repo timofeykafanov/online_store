@@ -6,3 +6,9 @@
   line-height: 20px;
   letter-spacing: 0.04em;
 }
+
+@media screen and (max-width: 374px) {
+  .product__link-list {
+    margin-left: 10px;
+  }
+}

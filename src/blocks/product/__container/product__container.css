@@ -2,3 +2,9 @@
   padding: 24px 20px 29px;
   border-bottom: 0.5px solid #C4C4C4;
 }
+
+@media screen and (max-width: 374px) {
+  .product__container {
+    padding: 24px 10px 29px;
+  }
+}

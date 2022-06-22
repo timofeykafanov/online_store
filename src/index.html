@@ -22,6 +22,9 @@
           <li class="header__item">
             <a href="#" class="header__link header__link_type_bag"></a>
           </li>
+          <li class="header__item">
+            <button href="#" class="header__button"></button>
+          </li>
         </ul>
       </nav>
     </section>
@@ -30,32 +33,22 @@
     <div class="main__container">
       <section class="product">
         <div class="product__images">
-          <img class="product__main-image" src="./images/first.jpg" alt="product image">
+          <img src="./images/first.jpg" class="product__main-image" alt="Фото товара">
           <ul class="product__list">
-            <li class="product__item">
-              <div class="product__cover">
-                <img class="product__image product__image_selected" src="./images/first.jpg" alt="product image">
-              </div>
+            <li class="product__cover">
+              <img class="product__image product__image_selected" src="./images/first.jpg" alt="Фото товара">
             </li>
-            <li class="product__item">
-              <div class="product__cover">
-                <img class="product__image" src="./images/second.jpg" alt="product image">
-              </div>
+            <li class="product__cover">
+              <img class="product__image" src="./images/second.jpg" alt="Фото товара">
             </li>
-            <li class="product__item">
-              <div class="product__cover">
-                <img class="product__image" src="./images/third.jpg" alt="product image">
-              </div>
+            <li class="product__cover">
+              <img class="product__image" src="./images/third.jpg" alt="Фото товара">
             </li>
-            <li class="product__item">
-              <div class="product__cover">
-                <img class="product__image" src="./images/fourth.jpg" alt="product image">
-              </div>
+            <li class="product__cover">
+              <img class="product__image" src="./images/fourth.jpg" alt="Фото товара">
             </li>
-            <li class="product__item">
-              <div class="product__cover">
-                <img class="product__image" src="./images/fifth.jpg" alt="product image">
-              </div>
+            <li class="product__cover">
+              <img class="product__image" src="./images/fifth.jpg" alt="Фото товара">
             </li>
           </ul>
         </div>
@@ -94,8 +87,10 @@
                   <span class="product__quantity">1</span>
                   <button class="product__plus" type="button">+</button>
                 </div>
-                <button class="product__submit" type="submit">Добавить в корзину</button>
-                <button class="product__like" type="button"></button>
+                <div class="product__dark-buttons">
+                  <button class="product__submit" type="submit">Добавить в корзину</button>
+                  <button class="product__like" type="button"></button>
+                </div>
               </div>
             </form>
             <button class="product__one-click" type="button">Купить в 1 клик</button>
@@ -169,6 +164,25 @@
         </p>
         <button class="popup__button" type="submit">Отправить</button>
       </form>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu__content">
+      <button class="menu__close"></button>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Постельное белье</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Одежда для дома</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Одежда для улицы</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Выход</a>
+        </li>
+      </ul>
     </div>
   </div>
 </body>

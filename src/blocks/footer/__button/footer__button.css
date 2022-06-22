@@ -15,3 +15,15 @@
 .footer__button:hover {
   opacity: 0.7;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__button {
+    margin-left: 185px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer__button {
+    margin-left: 130px;
+  }
+}

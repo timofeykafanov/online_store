@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px) {
+  .footer__subscribe {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}

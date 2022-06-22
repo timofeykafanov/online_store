@@ -3,4 +3,13 @@
   border: none;
   border-bottom: 1px solid #C4C4C4;
   margin: 15px 0 35px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__email {
+    margin-bottom: 25px;
+  }
 }

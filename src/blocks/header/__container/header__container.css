@@ -1,8 +1,16 @@
 .header__container {
-  max-width: 1440px;
+  max-width: 1500px;
   height: 40px;
+  padding: 0 30px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__container {
+    height: 60px;
+    max-width: 375px;
+  }
 }

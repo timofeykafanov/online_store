@@ -1,0 +1,13 @@
+.header__button {
+  background: url('../../../images/menu.svg');
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.header__button:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

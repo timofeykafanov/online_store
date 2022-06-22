@@ -4,5 +4,20 @@
   padding: 0 159px 34px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 335px 335px 452px;
+  grid-template-columns: minmax(max-content, 335px) minmax(max-content, 335px) 452px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    padding: 0 59px 34px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 34px;
+    max-width: 375px;
+    padding: 0 20px 34px;
+  }
 }

@@ -1,0 +1,10 @@
+.product__dark-buttons {
+  height: 44px;
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .product__dark-buttons {
+    margin-top: 15px;
+  }
+}

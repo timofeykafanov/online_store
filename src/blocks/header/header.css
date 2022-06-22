@@ -5,3 +5,9 @@
 .header__link {
   background-image: url('../../images/person.svg');
 }
+
+@media screen and (max-width: 1000px) {
+  .header {
+    box-shadow: none;
+  }
+}

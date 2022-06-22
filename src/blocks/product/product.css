@@ -1,8 +1,26 @@
 .product {
-  margin: auto;
+  margin: 0 26px;
   max-width: 1388px;
-  height: 880px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .product {
+    grid-template-columns: 375px;
+    grid-template-rows: 480px 650px;
+    max-width: 375px;
+    margin: auto;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .product {
+    grid-template-columns: 320px;
+    grid-template-rows: 410px 650px;
+    margin: auto;
+    max-width: 320px;
+  }
 }

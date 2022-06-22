@@ -10,6 +10,7 @@
 @import url(../blocks/header/__link/_type/_person/header__link_type_person.css);
 @import url(../blocks/header/__link/_type/_favorite/header__link_type_favorite.css);
 @import url(../blocks/header/__link/_type/_bag/header__link_type_bag.css);
+@import url(../blocks/header/__button/header__button.css);
 
 @import url(../blocks/main/__container/main__container.css);
 
@@ -39,6 +40,7 @@
 @import url(../blocks/product/__minus/product__minus.css);
 @import url(../blocks/product/__quantity/product__quantity.css);
 @import url(../blocks/product/__plus/product__plus.css);
+@import url(../blocks/product/__dark-buttons/product__dark-buttons.css);
 @import url(../blocks/product/__submit/product__submit.css);
 @import url(../blocks/product/__like/product__like.css);
 @import url(../blocks/product/__one-click/product__one-click.css);
@@ -59,6 +61,7 @@
 @import url(../blocks/footer/__form/footer__form.css);
 @import url(../blocks/footer/__email/footer__email.css);
 @import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__subscribe/footer__subscribe.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__button/popup__button.css);
@@ -73,3 +76,11 @@
 @import url(../blocks/popup/__input/_type/_name/popup__input_type_name.css);
 @import url(../blocks/popup/__line/popup__line.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_opened/menu_opened.css);
+@import url(../blocks/menu/__content/menu__content.css);
+@import url(../blocks/menu/__close/menu__close.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);

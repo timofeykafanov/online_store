@@ -6,3 +6,10 @@
   text-transform: uppercase;
   margin: 12px 0 16px;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__title {
+    max-width: 255px;
+    margin-bottom: 14px;
+  }
+}

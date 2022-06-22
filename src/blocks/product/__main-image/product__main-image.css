@@ -1,6 +1,10 @@
 .product__main-image {
-  position: absolute;
-  width: 686px;
-  height: 878px;
-  z-index: -1;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .product__main-image {
+    /* width: 375px;
+    height: 480px; */
+  }
 }
