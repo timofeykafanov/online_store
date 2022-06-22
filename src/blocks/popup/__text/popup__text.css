@@ -6,3 +6,9 @@
   max-width: 330px;
   margin: 40px auto 33px;
 }
+
+@media screen and (max-width: 374px) {
+  .popup__text {
+    max-width: 273px;
+  }
+}

@@ -9,3 +9,9 @@
   box-sizing: border-box;
   background: #FDFCFC;
 }
+
+@media screen and (max-width: 374px) {
+  .popup__input {
+    max-width: 273px;
+  }
+}
